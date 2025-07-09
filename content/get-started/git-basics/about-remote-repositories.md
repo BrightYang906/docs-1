@@ -61,7 +61,7 @@ When you `git clone`, `git fetch`, `git pull`, or `git push` to a private remote
 > * You can use a credential helper so Git will remember your {% data variables.product.prodname_dotcom %} credentials every time it talks to {% data variables.product.prodname_dotcom %}. For more information, see [AUTOTITLE](/get-started/git-basics/caching-your-github-credentials-in-git).
 > * To clone a repository without authenticating to {% data variables.product.github %} on the command line, you can use {% data variables.product.prodname_desktop %} to clone instead. For more information, see [AUTOTITLE](/desktop/adding-and-cloning-repositories/cloning-a-repository-from-github-to-github-desktop).
 
- {% ifversion fpt or ghec %}If you'd rather use SSH but cannot connect over port 22, you might be able to use SSH over the HTTPS port. For more information, see [AUTOTITLE](/authentication/troubleshooting-ssh/using-ssh-over-the-https-port).{% endif %}
+ {% ifversion fpt or ghec %}If you'd rather use SSH but cannot connect over port 22, you might be able to use SSH over the HTTPS port. For more information, see [AUTOTITLE](/authentication/troubleshooting-ssh/using-ssh-over-the-https-port).{% endif %}  
 
 ## Cloning with SSH URLs
 
